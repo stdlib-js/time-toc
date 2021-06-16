@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/time-toc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Return a high-resolution time difference.",
   "license": "Apache-2.0",
   "author": {
