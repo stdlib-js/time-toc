@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer-array@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/time-tic@esm/index.mjs";var n=e.primitives,i=r,s=t;var a=function(e){var r,t,a=s();if(!n(e))throw new TypeError(i("invalid argument. Must provide an array of nonnegative integers. Value: `%s`.",e));if(2!==e.length)throw new RangeError("invalid argument. Input array must have length `2`.");return r=a[0]-e[0],t=a[1]-e[1],r>0&&t<0?(r-=1,t+=1e9):r<0&&t>0&&(r+=1,t-=1e9),[r,t]};export{a as default};
+//# sourceMappingURL=index.mjs.map
