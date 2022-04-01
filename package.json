@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/time-toc",
+  "version": "0.0.0",
+  "description": "Return a high-resolution time difference.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/time-toc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtime",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "time",
+    "timer",
+    "tic",
+    "toc",
+    "process.hrtime",
+    "performance.now",
+    "performance",
+    "perf",
+    "now",
+    "high-resolution",
+    "clock",
+    "delta",
+    "elapsed",
+    "difference"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
