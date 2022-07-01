@@ -24,32 +24,30 @@ limitations under the License.
 
 > Return a high-resolution time difference.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/time-toc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-toc = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.toc;
-})();
-</script>
+var toc = require( '@stdlib/time-toc' );
 ```
 
 #### toc( time )
@@ -83,14 +81,9 @@ Similar to `time`, the returned `array` has format `[seconds, nanoseconds]`.
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-tic@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var tic = require( '@stdlib/time-tic' );
+var toc = require( '@stdlib/time-toc' );
 
 var start = tic();
 
@@ -100,11 +93,6 @@ function onTimeout() {
     var elapsed = toc( start );
     console.log( 'Elapsed: %d seconds and %d nanoseconds', elapsed[0], elapsed[1] );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -190,14 +178,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/time-toc/tree/deno
 [umd-url]: https://github.com/stdlib-js/time-toc/tree/umd
 [esm-url]: https://github.com/stdlib-js/time-toc/tree/esm
+[branches-url]: https://github.com/stdlib-js/time-toc/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/time-toc/main/LICENSE
 
-[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic/tree/umd
+[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic
 
 <!-- <related-links> -->
 
-[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic/tree/umd
+[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic
 
 <!-- </related-links> -->
 
