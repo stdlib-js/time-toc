@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-nonnegative-integer-array": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/time-tic": "^0.0.x"
   },
   "devDependencies": {
