@@ -107,7 +107,7 @@ function onTimeout() {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/time/tic`][@stdlib/time/tic]</span><span class="delimiter">: </span><span class="description">return a high-resolution time.</span>
+-   <span class="package-name">[`@stdlib/time-tic`][@stdlib/time/tic]</span><span class="delimiter">: </span><span class="description">return a high-resolution time.</span>
 
 </section>
 
