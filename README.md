@@ -35,14 +35,30 @@ limitations under the License.
 
 > Return a high-resolution time difference.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/time-toc
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@deno/mod.js';
+var toc = require( '@stdlib/time-toc' );
 ```
 
 #### toc( time )
@@ -77,8 +93,8 @@ Similar to `time`, the returned `array` has format `[seconds, nanoseconds]`.
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import tic from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-tic@deno/mod.js';
-import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@deno/mod.js';
+var tic = require( '@stdlib/time-tic' );
+var toc = require( '@stdlib/time-toc' );
 
 var start = tic();
 
@@ -117,7 +133,7 @@ function onTimeout() {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -134,7 +150,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -177,11 +193,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/time-toc/main/LICENSE
 
-[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic/tree/deno
+[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic
 
 <!-- <related-links> -->
 
-[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic/tree/deno
+[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic
 
 <!-- </related-links> -->
 
