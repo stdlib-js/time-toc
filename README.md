@@ -202,8 +202,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/time/tic]: https://github.com/stdlib-js/time-tic
-
 <!-- </related-links> -->
 
 </section>

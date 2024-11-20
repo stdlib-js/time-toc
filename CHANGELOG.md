@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-05)
+## Unreleased (2024-11-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`65ff8cc`](https://github.com/stdlib-js/stdlib/commit/65ff8cc1d90cf8ba6005f32876db0fe266e4b603) - **docs:** fix duplicate definition _(by Athan Reines)_
 -   [`9d330f2`](https://github.com/stdlib-js/stdlib/commit/9d330f2897845f409e828dbf1c56885cf07477dd) - **docs:** fix section tag _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
