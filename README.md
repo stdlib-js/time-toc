@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@deno/mod.js';
+import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@v0.2.3-deno/mod.js';
 ```
 
 #### toc( time )
@@ -78,7 +78,7 @@ Similar to `time`, the returned `array` has format `[seconds, nanoseconds]`.
 
 ```javascript
 import tic from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-tic@deno/mod.js';
-import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@deno/mod.js';
+import toc from 'https://cdn.jsdelivr.net/gh/stdlib-js/time-toc@v0.2.3-deno/mod.js';
 
 var start = tic();
 
